@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   useEffect(() => {
-    OneSignal.setAppId("YOUR_ONESIGNAL_APP_ID");
+    OneSignal.setAppId("da4dd434-58ea-4c6d-900f-1bf3cc0ae81f");
     OneSignal.setLogLevel(6, 0); // Set log level to enable debug logging
 
     OneSignal.setNotificationOpenedHandler((notification) => {
